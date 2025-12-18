@@ -18,7 +18,7 @@ export default function PersonCard({
         <li>Salary: {salary}€/mo</li>
         <li>Phone number: {phone}</li>
         <li>Email: {email}</li>
-        <li>Favorite animal: {animal}</li>
+        <li>Favorite animal: {animal.emoji}</li>
         <li>Start date: {startDate}</li>
         <li>Location: {location}</li>
         <li>Department: {department}</li>
