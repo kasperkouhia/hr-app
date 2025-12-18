@@ -12,7 +12,7 @@ export default function PersonList({ employees }) {
           phone={employee.phone}
           email={employee.email}
           animal={employee.animal}
-          startDate={employee.startDate}
+          startDateString={employee.startDate}
           location={employee.location}
           department={employee.department}
           skills={employee.skills}
