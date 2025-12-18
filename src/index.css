@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@utility responsive-cols-* {
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(--spacing(--value(integer)), 1fr)
+  );
+}
