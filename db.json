@@ -8,7 +8,7 @@
       "phone": "040-1234567",
       "email": "aino.virtanen@example.com",
       "animal": { "emoji": "🦉", "string": "Owl" },
-      "startDate": "2018-04-01",
+      "startDate": "2015-04-01",
       "location": "Helsinki",
       "department": "Human Resources",
       "skills": ["Recruiting", "Communication", "Employee Relations"]
@@ -99,7 +99,7 @@
       "phone": "040-1144345",
       "email": "nina.hansen@example.com",
       "animal": { "emoji": "🦩", "string": "Flamingo" },
-      "startDate": "2020-07-07",
+      "startDate": "2010-07-07",
       "location": "Helsinki",
       "department": "Engineering",
       "skills": ["SQL", "MongoDB"]
@@ -125,7 +125,7 @@
       "phone": "045-1238899",
       "email": "ville.vallaton@example.com",
       "animal": { "emoji": "🦚", "string": "Peacock" },
-      "startDate": "2018-04-01",
+      "startDate": "2025-04-01",
       "location": "Oulu",
       "department": "Marketing",
       "skills": ["Digital Marketing", "Content Strategy", "SEO"]
