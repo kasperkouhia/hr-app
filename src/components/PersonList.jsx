@@ -2,7 +2,7 @@ import PersonCard from "./PersonCard";
 
 export default function PersonList({ employees }) {
   return (
-    <div className="responsive-cols-80 grid w-full grow-1 gap-4 self-start p-4">
+    <div className="responsive-cols-70 grid w-full grow-1 gap-4 self-start p-4">
       {employees.map((employee) => (
         <PersonCard
           key={employee.id}
