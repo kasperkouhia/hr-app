@@ -27,8 +27,19 @@ export default function PersonCard({
 
   return (
     <div className="border-1">
-      <h2 className="border-b-1 p-4 font-bold">{name}</h2>
-      <ul className="p-4">
+      <h2 className="border-b-1 p-2 text-xl">{name}</h2>
+      {yearsSinceStart === 0 ? (
+        <div className="stripes border-b-1 p-2">
+          <p className="bg-white p-2">&#128276; Schedule probation review!</p>
+        </div>
+      ) : yearsSinceStart % 5 === 0 ? (
+        <div className="stripes border-b-1 p-2">
+          <p className="bg-white p-2">
+            &#127881; Schedule recognition meeting!
+          </p>
+        </div>
+      ) : null}
+      <ul className="p-2">
         <li>Title: {title}</li>
         <li>Salary: {salary}€/mo</li>
         <li>Phone number: {phone}</li>
