@@ -6,3 +6,25 @@
     minmax(--spacing(--value(integer)), 1fr)
   );
 }
+
+@layer components {
+  .stripes {
+    background-image: linear-gradient(
+      45deg,
+      currentColor 10%,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0) 50%,
+      currentColor 50%,
+      currentColor 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    background-size: --spacing(1) --spacing(1);
+  }
+}
+
+@layer base {
+  :root {
+    @apply text-sm;
+  }
+}
